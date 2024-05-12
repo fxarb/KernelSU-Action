@@ -13,8 +13,6 @@ env:
     support-umount-modules-kernelsu.patch
 
 on:
-  schedule:
-    - cron: "50 9,21 * * *"
   workflow_dispatch:
     inputs:
       allow_rebuild:
